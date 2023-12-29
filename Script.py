@@ -12,14 +12,16 @@ from time import sleep
 import datetime
 
 
-driver = webdriver.Chrome(executable_path=r'C:\chromedrivers\chromedriver.exe')
+# Python Script
+path = "Path_to_chromedrive"
+
+driver = webdriver.Chrome(executable_path=path)
 driver.get('https://open.spotify.com/')
 driver.maximize_window()
 
 wait = WebDriverWait(driver, 10)
 
 mute_status = False
-
 
 def login():
     login_btn = driver.find_element(By.XPATH, "//button[contains(text(),'Log in')]")
