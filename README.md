@@ -1,11 +1,13 @@
 # Spotify-Script
-A python script for automatically muting the Ads for non premium users and unmutes when songs plays using the chromedriver.
+A Python script for automatically muting the Ads for nonpremium users and unmuting when songs play using the chrome driver.
 
-## Please use the latest version of chrome driver.
+## Please use the latest version of Chrome driver.
 
 Have fun
 
 Few Feature: 
 It lets you know the number the ads paused the whole time you used the script.
 
-It does not violate any rules of spotify, I am not making a crack verison or anything else.
+It does not violate any rules of Spotify, I am not making a cracked version or anything else.
+
+I made it during lockdown and was very happy to see it work, as I hoped it would.
